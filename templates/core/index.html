@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class=" caja-nav caja-header">
+            <h1 style="color: white;">UrbanThreads</h1>
+            <div class="caja">
+                <nav class="navegacion">
+                    <a href="" class="text-nav-sec">iniciar sesion</a>
+                    <a href="" class="text-nav-sec">carrito</a>
+                </nav>
+
+            </div>
+        </div>
+        <div class="caja-secundaria">
+            <div class="caja-busqueda">
+                <form action="">
+                    <input type="text" name="busqueda" id="busqueda" placeholder="Necesitas ayuda">
+                </form>
+            </div>
+
+            <div class="caja-nav">
+                <nav class="navegacion">
+                    <a href="" class="text-nav-sec">inicio</a>
+                    <a href="" class="text-nav-sec">Productos</a>
+                    <a href="" class="text-nav-sec">Servicios</a>
+                    <a href="" class="text-nav-sec">Recursos</a>
+                    <a href="" class="text-nav-sec">Contactenos</a>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <div id="lista-productos" class="contenedor-productos">
+        <div class="titulo-producto">
+            <h2>Nuestros Productos</h2>
+        </div>
+        
+        <div class="productos">
+            <div class="caja-produc">
+                <img src="{% static 'assets/img/IS-DH2987-100-3.jpg' %}" class="imagen-producto" alt="tenis">
+                <div class="inf-product">
+                    <h4>Tenis </h4>
+                    <a>adidas Lifestyle Grand Court Td Mujer Adultos</a>
+                </div>
+            </div>
+            <div class="caja-produc">
+                <img src="{% static 'assets/img/IS-DH2987-100-3.jpg' %}" class="imagen-producto" alt="tenis">
+                <div class="inf-product">
+                    <h4>Tenis </h4>
+                    <a>adidas Lifestyle Grand Court Td Mujer Adultos</a>
+                </div>
+            </div>
+            <div class="caja-produc">\
+                <img src="{% static 'assets/img/IS-DH2987-100-3.jpg' %}" class="imagen-producto" alt="tenis">
+                <div class="inf-product">
+                    <h4>Tenis </h4>
+                    <a>adidas Lifestyle Grand Court Td Mujer Adultos</a>
+                </div>
+            </div>
+            <div class="caja-produc">
+                <img src="{% static 'assets/img/IS-DH2987-100-3.jpg' %}" class="imagen-producto" alt="tenis">
+                <div class="inf-product">
+                    <h4>Tenis </h4>
+                    <a>adidas Lifestyle Grand Court Td Mujer Adultos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="footer">
+        <div class="container-footer">
+            <div class="row">
+                <div class="four columns">
+                    <nav id="principal" class="menu">
+                        <a class="enlace" href="#">Ayuda</a>
+                        <a class="enlace" href="#">Cuenta</a>
+                        <a class="enlace" href="#">Información de envío</a>
+                        <a class="enlace" href="#">Soporte</a>
+                        <a class="enlace" href="#">Catálogos</a>
+                    </nav>
+                </div>
+                <div class="four columns">
+                    <nav id="secundaria" class="menu">
+                        <a class="enlace" href="#">¿Quienes Somos?</a>
+                        <a class="enlace" href="#">Acerca de Nosotros</a>
+                        <a class="enlace" href="#">Blog</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
